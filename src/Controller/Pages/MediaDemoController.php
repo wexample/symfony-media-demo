@@ -5,6 +5,7 @@ namespace Wexample\SymfonyMediaDemo\Controller\Pages;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use Wexample\SymfonyDesignSystem\Attribute\MenuItem;
 use Wexample\SymfonyForms\Attribute\EntityFormProcessor;
 use Wexample\SymfonyHelpers\Helper\VariableHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
@@ -12,6 +13,7 @@ use Wexample\SymfonyMediaDemo\Entity\DemoArticle;
 use Wexample\SymfonyMediaDemo\Repository\DemoArticleRepository;
 use Wexample\SymfonyMediaDemo\Service\FormProcessor\DemoArticleFormProcessor;
 use Wexample\SymfonyMediaDemo\Traits\SymfonyMediaDemoBundleClassTrait;
+use Wexample\SymfonyMediaDs\Controller\Pages\MediaLibraryController;
 
 /**
  * An article picking its cover and its attachments in the library, through
@@ -27,6 +29,7 @@ final class MediaDemoController extends AbstractPagesController
     final public const string ROUTE_ARTICLE = 'article';
 
     #[Route(path: '', name: self::ROUTE_INDEX)]
+    #[MenuItem(MediaLibraryController::MENU_GROUP, 1)]
     public function index(DemoArticleRepository $articleRepository): Response
     {
         return $this->renderPage(self::ROUTE_INDEX, [

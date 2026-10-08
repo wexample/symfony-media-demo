@@ -36,6 +36,8 @@ class DemoArticleForm extends AbstractForm
                 self::FIELD_OPTION_NAME_LABEL => true,
                 self::FIELD_OPTION_NAME_REQUIRED => false,
                 'multiple' => true,
+                // The library beside the form rather than over it.
+                'target' => 'panel',
             ]);
 
         $this->builderAddSubmit($builder);
