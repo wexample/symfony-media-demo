@@ -12,19 +12,3 @@ en:
   edit: Edit the article
   attachments: Attachments
   no_cover: No cover yet.
-
-fr:
-  page_title: Article
-  page_icon: ph:bold/images
-  intro: >-
-    Un article qui pointe vers des médias de la bibliothèque par de simples
-    relations : une couverture (ManyToOne) et des pièces jointes (ManyToMany).
-    Son formulaire les choisit avec le champ de symfony-media-ds, qui ouvre la
-    page de la médiathèque en mode sélection : en modale pour la couverture,
-    en panneau pour les pièces jointes.
-  open:
-    modal: Médiathèque en modale
-    panel: Médiathèque en panneau
-  edit: Modifier l'article
-  attachments: Pièces jointes
-  no_cover: Pas encore de couverture.

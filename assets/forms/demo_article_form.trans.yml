@@ -14,20 +14,3 @@ en:
 
   success:
     message: Article saved
-
-fr:
-  field:
-    title:
-      label: Titre
-    cover:
-      label: Couverture
-      help: Un média, choisi dans la médiathèque.
-    attachments:
-      label: Pièces jointes
-      help: Autant de médias que l'article en demande.
-
-  action:
-    submit: Enregistrer
-
-  success:
-    message: Article enregistré
