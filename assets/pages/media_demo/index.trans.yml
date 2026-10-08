@@ -6,14 +6,12 @@ en:
     cover (ManyToOne) and attachments (ManyToMany). Its form picks them with
     symfony-media-ds's field, which opens the library page as a picker: in a
     modal for the cover, in a panel for the attachments.
-  library: Open the media library
   open:
     modal: Library in a modal
     panel: Library in a panel
   edit: Edit the article
   attachments: Attachments
   no_cover: No cover yet.
-  no_attachments: No attachment yet.
 
 fr:
   page_title: Démo
@@ -24,11 +22,9 @@ fr:
     Son formulaire les choisit avec le champ de symfony-media-ds, qui ouvre la
     page de la médiathèque en mode sélection : en modale pour la couverture,
     en panneau pour les pièces jointes.
-  library: Ouvrir la médiathèque
   open:
     modal: Médiathèque en modale
     panel: Médiathèque en panneau
   edit: Modifier l'article
   attachments: Pièces jointes
   no_cover: Pas encore de couverture.
-  no_attachments: Pas encore de pièce jointe.

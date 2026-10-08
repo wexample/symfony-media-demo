@@ -2,21 +2,18 @@
 
 {%- set page_show_title = true -%}
 
-{#- The library opens where a page of the application would: in a modal or a
-    panel, as the tunnels of the demo do. -#}
+{#- What the page leads to, in its title bar: the library, where a page of
+    the application opens — a modal, a panel, as the tunnels of the demo do —,
+    and the article's form. -#}
 {%- block page_title_actions -%}
     {%- set overlay_options = { closeOnEscape: true, closeOnOverlayClick: true } -%}
+    {{ button_link('ph:bold/pencil-simple', '@page::edit' | trans, path('media_demo_article', { id: article.id }), { class: 'button' }) }}
     {{ button_target('ph:bold/app-window', 'WexampleSymfonyMediaDemoBundle.pages.media_demo.index::open.modal', path('media_library_index'), 'modal', { class: 'button', target_options: overlay_options }) }}
     {{ button_target('ph:bold/sidebar-simple-duotone', 'WexampleSymfonyMediaDemoBundle.pages.media_demo.index::open.panel', path('media_library_index'), 'panel', { class: 'button', target_options: overlay_options }) }}
 {%- endblock -%}
 
 {%- block page_body -%}
-    <p class="text-secondary">{{ '@page::intro' | trans }}</p>
-    <p>
-        {{ text_link(path('media_library_index'), '@page::library' | trans) }}
-        ·
-        {{ text_link(path('media_demo_article', { id: article.id }), '@page::edit' | trans) }}
-    </p>
+    <p class="lead">{{ '@page::intro' | trans }}</p>
 
     {#- What the article holds, read through its relations: the library
         serves the files behind its access check. -#}
@@ -27,15 +24,18 @@
         {%- else -%}
             <p class="text-secondary">{{ '@page::no_cover' | trans }}</p>
         {%- endif -%}
-        <h3>{{ '@page::attachments' | trans }}</h3>
-        {%- if article.attachments is empty -%}
-            <p class="text-secondary">{{ '@page::no_attachments' | trans }}</p>
-        {%- else -%}
-            <ul>
-                {%- for media in article.attachments -%}
-                    <li>{{ text_link(path('media_file', { id: media.id }), media.name) }}</li>
-                {%- endfor -%}
-            </ul>
-        {%- endif -%}
     </div>
+
+    {#- The attachments, as the design system draws files. -#}
+    {{ file_explorer(
+        article.attachments.toArray|map(media => {
+            name: media.name,
+            type: 'file',
+            size: media.size,
+            modifiedAt: media.dateCreated,
+            href: path('media_file', { id: media.id }),
+        }),
+        [],
+        { title: '@page::attachments' | trans }
+    ) }}
 {%- endblock -%}
