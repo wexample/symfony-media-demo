@@ -1,0 +1,31 @@
+<?php
+
+namespace Wexample\SymfonyMediaDemo\Service\FormProcessor;
+
+use Doctrine\ORM\EntityManagerInterface;
+use Symfony\Component\Form\FormFactoryInterface;
+use Symfony\Component\Form\FormInterface;
+use Symfony\Component\HttpFoundation\RequestStack;
+use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
+use Wexample\SymfonyForms\Service\FormProcessor\AbstractFormProcessor;
+
+class DemoArticleFormProcessor extends AbstractFormProcessor
+{
+    public function __construct(
+        FormFactoryInterface $formFactory,
+        RequestStack $requestStack,
+        UrlGeneratorInterface $urlGenerator,
+        private readonly EntityManagerInterface $entityManager,
+    ) {
+        parent::__construct($formFactory, $requestStack, $urlGenerator);
+    }
+
+    public function onValid(FormInterface $form): void
+    {
+        $this->entityManager->persist($form->getData());
+        $this->entityManager->flush();
+
+        $this->setSuccessAction(['type' => self::ACTION_DEFAULT]);
+        $this->setNotification('@form::success.message');
+    }
+}

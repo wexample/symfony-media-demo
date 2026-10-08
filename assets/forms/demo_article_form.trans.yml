@@ -1,0 +1,33 @@
+en:
+  field:
+    title:
+      label: Title
+    cover:
+      label: Cover
+      help: One media, picked in the library.
+    attachments:
+      label: Attachments
+      help: As many media as the article needs.
+
+  action:
+    submit: Save
+
+  success:
+    message: Article saved
+
+fr:
+  field:
+    title:
+      label: Titre
+    cover:
+      label: Couverture
+      help: Un média, choisi dans la médiathèque.
+    attachments:
+      label: Pièces jointes
+      help: Autant de médias que l'article en demande.
+
+  action:
+    submit: Enregistrer
+
+  success:
+    message: Article enregistré

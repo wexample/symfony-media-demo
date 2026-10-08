@@ -1,0 +1,8 @@
+@use '@wexample/symfony-design-system/css/shapes/block';
+
+.media-demo--cover {
+  display: block;
+  max-width: 100%;
+  max-height: 20rem;
+  border-radius: var(--radius-box);
+}

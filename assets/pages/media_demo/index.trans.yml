@@ -1,0 +1,26 @@
+en:
+  page_title: Media
+  page_icon: ph:bold/images
+  intro: >-
+    An article pointing at media of the library through plain relations: a
+    cover (ManyToOne) and attachments (ManyToMany). Its form picks them with
+    symfony-media-ds's field, which opens the library in a modal.
+  library: Open the media library
+  edit: Edit the article
+  attachments: Attachments
+  no_cover: No cover yet.
+  no_attachments: No attachment yet.
+
+fr:
+  page_title: Médias
+  page_icon: ph:bold/images
+  intro: >-
+    Un article qui pointe vers des médias de la bibliothèque par de simples
+    relations : une couverture (ManyToOne) et des pièces jointes (ManyToMany).
+    Son formulaire les choisit avec le champ de symfony-media-ds, qui ouvre la
+    médiathèque dans une modale.
+  library: Ouvrir la médiathèque
+  edit: Modifier l'article
+  attachments: Pièces jointes
+  no_cover: Pas encore de couverture.
+  no_attachments: Pas encore de pièce jointe.
