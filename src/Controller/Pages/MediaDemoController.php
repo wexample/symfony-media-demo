@@ -19,7 +19,7 @@ use Wexample\SymfonyMediaDs\Controller\Pages\MediaLibraryController;
  * An article picking its cover and its attachments in the library, through
  * symfony-media-ds's field, which opens the library in a modal.
  */
-#[Route(path: '/media-demo/', name: 'media_demo_')]
+#[Route(path: '/media/article/', name: 'media_demo_')]
 final class MediaDemoController extends AbstractPagesController
 {
     use SymfonyMediaDemoBundleClassTrait;
@@ -38,7 +38,7 @@ final class MediaDemoController extends AbstractPagesController
     }
 
     #[EntityFormProcessor(DemoArticleFormProcessor::class, DemoArticle::class)]
-    #[Route(path: self::ROUTE_ARTICLE.'/{id}', name: self::ROUTE_ARTICLE)]
+    #[Route(path: '{id}/edit', name: self::ROUTE_ARTICLE)]
     public function article(FormInterface $demoArticleForm): Response
     {
         return $this->renderPage(self::ROUTE_ARTICLE, [

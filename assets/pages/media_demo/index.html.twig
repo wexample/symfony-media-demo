@@ -17,14 +17,19 @@
 
     {#- What the article holds, read through its relations: the library
         serves the files behind its access check. -#}
-    <div class="block block--padded">
-        <h2>{{ article.title }}</h2>
+    <article class="block block--card media-demo--article">
         {%- if article.cover -%}
-            <img src="{{ path('media_thumbnail', { id: article.cover.id, width: 480 }) }}" alt="{{ article.cover.name }}" class="media-demo--cover">
-        {%- else -%}
-            <p class="text-secondary">{{ '@page::no_cover' | trans }}</p>
+            <div class="media media--16-9 media--cover">
+                <img src="{{ path('media_thumbnail', { id: article.cover.id, width: 480 }) }}" alt="{{ article.cover.name }}">
+            </div>
         {%- endif -%}
-    </div>
+        <div class="block--body">
+            <h2>{{ article.title }}</h2>
+            {%- if not article.cover -%}
+                <p class="text-secondary">{{ '@page::no_cover' | trans }}</p>
+            {%- endif -%}
+        </div>
+    </article>
 
     {#- The attachments, as the design system draws files. -#}
     {{ file_explorer(

@@ -1,5 +1,5 @@
 en:
-  page_title: Demo
+  page_title: Article
   page_icon: ph:bold/images
   intro: >-
     An article pointing at media of the library through plain relations: a
@@ -14,7 +14,7 @@ en:
   no_cover: No cover yet.
 
 fr:
-  page_title: Démo
+  page_title: Article
   page_icon: ph:bold/images
   intro: >-
     Un article qui pointe vers des médias de la bibliothèque par de simples

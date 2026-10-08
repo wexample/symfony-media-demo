@@ -1,8 +1,8 @@
 @use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/media';
 
-.media-demo--cover {
-  display: block;
-  max-width: 100%;
-  max-height: 20rem;
-  border-radius: var(--radius-box);
+// An article as a card: its cover across the top, its title under it — no
+// wider than a card reads at, the attachments below taking the page's width.
+.media-demo--article {
+  max-width: 32rem;
 }
