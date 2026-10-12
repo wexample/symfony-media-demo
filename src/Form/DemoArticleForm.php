@@ -31,6 +31,8 @@ class DemoArticleForm extends AbstractForm
             ->add('cover', MediaPickerType::class, [
                 self::FIELD_OPTION_NAME_LABEL => true,
                 self::FIELD_OPTION_NAME_REQUIRED => false,
+                // A cover is an image: the library shows nothing else.
+                'accept' => 'image/*',
             ])
             ->add('attachments', MediaPickerType::class, [
                 self::FIELD_OPTION_NAME_LABEL => true,
