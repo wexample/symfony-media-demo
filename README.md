@@ -1,6 +1,6 @@
 # symfony-media-demo
 
-Version: 2.0.0
+Version: 2.0.1
 
 Demo of symfony-media: the library, and an article picking its cover and its attachments in it
 
@@ -26,7 +26,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-design-system: >=35.0.0
 - wexample/symfony-forms: >=12.0.0
 - wexample/symfony-helpers: >=16.0.0
 - wexample/symfony-loader: >=23.0.0
