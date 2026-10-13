@@ -1,6 +1,6 @@
 # symfony-media-demo
 
-Version: 2.0.1
+Version: 2.0.2
 
 Demo of symfony-media: the library, and an article picking its cover and its attachments in it
 
