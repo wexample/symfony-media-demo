@@ -12,3 +12,9 @@ en:
   edit: Edit the article
   attachments: Attachments
   no_cover: No cover yet.
+  wall:
+    attachments: The attachments as a wall
+    library: The library as a wall
+    library_intro: >-
+      Every image of the library, newest first, each at its own ratio: the
+      next page is read from the api before the foot of the wall is reached.

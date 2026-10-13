@@ -43,4 +43,14 @@
         [],
         { title: '@page::attachments' | trans }
     ) }}
+
+    {#- The same attachments hung on a wall, drawn by the server: the
+        images at their ratio, anything else as the frame's placeholder. -#}
+    <h2>{{ '@page::wall.attachments' | trans }}</h2>
+    {{ media_wall(article.attachments) }}
+
+    {#- The library's images, read from its api as the wall is scrolled. -#}
+    <h2>{{ '@page::wall.library' | trans }}</h2>
+    <p class="text-secondary">{{ '@page::wall.library_intro' | trans }}</p>
+    {{ vue(render_pass, '@WexampleSymfonyMediaDsBundle/components/media-wall') }}
 {%- endblock -%}
