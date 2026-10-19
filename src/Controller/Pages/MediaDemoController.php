@@ -5,6 +5,7 @@ namespace Wexample\SymfonyMediaDemo\Controller\Pages;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use Symfony\Component\Routing\Requirement\Requirement;
 use Wexample\SymfonyDesignSystem\Attribute\MenuItem;
 use Wexample\SymfonyForms\Attribute\EntityFormProcessor;
 use Wexample\SymfonyHelpers\Helper\VariableHelper;
@@ -38,7 +39,7 @@ final class MediaDemoController extends AbstractPagesController
     }
 
     #[EntityFormProcessor(DemoArticleFormProcessor::class, DemoArticle::class)]
-    #[Route(path: '{id}/edit', name: self::ROUTE_ARTICLE)]
+    #[Route(path: '{id}/edit', name: self::ROUTE_ARTICLE, requirements: ['id' => Requirement::UUID])]
     public function article(FormInterface $demoArticleForm): Response
     {
         return $this->renderPage(self::ROUTE_ARTICLE, [
