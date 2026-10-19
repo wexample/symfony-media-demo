@@ -44,3 +44,303 @@ zh:
     submit: 保存
   success:
     message: 文章已保存
+
+ar:
+  field:
+    title:
+      label: العنوان
+    cover:
+      label: الغلاف
+      help: 'وسيلة واحدة، مختارة من المكتبة.'
+    attachments:
+      label: المرفقات
+      help: 'بقدر ما تحتاج المقالة من وسائل.'
+  action:
+    submit: حفظ
+  success:
+    message: 'تم حفظ المقالة'
+
+hi:
+  field:
+    title:
+      label: शीर्षक
+    cover:
+      label: कवर
+      help: 'पुस्तकालय में से चुने गए एक मीडिया।'
+    attachments:
+      label: अटैचमेंट्स
+      help: 'जितने मीडिया की आवश्यकता हो लेख के लिए।'
+  action:
+    submit: सहेजें
+  success:
+    message: 'लेख सहेजा गया'
+
+he:
+  field:
+    title:
+      label: כותרת
+    cover:
+      label: שער
+      help: 'מדיה אחת, שנבחרה מהספריה.'
+    attachments:
+      label: 'קבצים מצורפים'
+      help: 'כמות מדיות כפי שהמאמר זקוק.'
+  action:
+    submit: שמור
+  success:
+    message: 'המאמר נשמר'
+
+fa:
+  field:
+    title:
+      label: عنوان
+    cover:
+      label: پوشش
+      help: 'یک رسانه، انتخاب شده از کتابخانه.'
+    attachments:
+      label: پیوست‌ها
+      help: 'به تعداد رسانه‌هایی که مقاله نیاز دارد.'
+  action:
+    submit: ذخیره
+  success:
+    message: 'مقاله ذخیره شد'
+
+ur:
+  field:
+    title:
+      label: عنوان
+    cover:
+      label: کوریج
+      help: 'کتب خانہ میں سے منتخب کردہ ایک میڈیا۔'
+    attachments:
+      label: منسلکات
+      help: 'جتنا میڈیا مضمون کو درکار ہے۔'
+  action:
+    submit: 'محفوظ کریں'
+  success:
+    message: 'مضمون محفوظ کر لیا گیا'
+
+ja:
+  field:
+    title:
+      label: タイトル
+    cover:
+      label: カバー
+      help: ライブラリから選択した1つのメディア。
+    attachments:
+      label: 添付ファイル
+      help: 記事に必要なだけのメディア。
+  action:
+    submit: 保存
+  success:
+    message: 記事が保存されました
+
+ko:
+  field:
+    title:
+      label: 제목
+    cover:
+      label: 표지
+      help: '라이브러리에서 선택한 미디어 1개.'
+    attachments:
+      label: 첨부파일
+      help: '기사에 필요한 만큼의 미디어.'
+  action:
+    submit: 저장
+  success:
+    message: '기사 저장됨'
+
+bn:
+  field:
+    title:
+      label: শিরোনাম
+    cover:
+      label: কভার
+      help: 'লাইব্রেরি থেকে নির্বাচিত একটি মিডিয়া।'
+    attachments:
+      label: সংযুক্তি
+      help: 'যতগুলি মিডিয়া প্রয়োজন আর্টিকেলের জন্য।'
+  action:
+    submit: 'সংরক্ষণ করুন'
+  success:
+    message: 'আর্টিকেল সংরক্ষিত'
+
+th:
+  field:
+    title:
+      label: ชื่อเรื่อง
+    cover:
+      label: ปก
+      help: สื่อหนึ่งชิ้นที่เลือกจากห้องสมุด
+    attachments:
+      label: ไฟล์แนบ
+      help: สื่อจำนวนมากตามที่บทความต้องการ
+  action:
+    submit: บันทึก
+  success:
+    message: บทความถูกบันทึกแล้ว
+
+de:
+  field:
+    title:
+      label: Titel
+    cover:
+      label: Cover
+      help: 'Ein Medium, aus der Bibliothek ausgewählt.'
+    attachments:
+      label: Anhänge
+      help: 'So viele Medien, wie der Artikel benötigt.'
+  action:
+    submit: Speichern
+  success:
+    message: 'Artikel gespeichert'
+
+fi:
+  field:
+    title:
+      label: Otsikko
+    cover:
+      label: Kansi
+      help: 'Yksi media, valittu kirjastosta.'
+    attachments:
+      label: Liitteet
+      help: 'Niin monta mediaa kuin artikkeli tarvitsee.'
+  action:
+    submit: Tallenna
+  success:
+    message: 'Artikkeli tallennettu'
+
+ru:
+  field:
+    title:
+      label: Название
+    cover:
+      label: Обложка
+      help: 'Одно медиа, выбрано из библиотеки.'
+    attachments:
+      label: Вложения
+      help: 'Столько медиа, сколько нужно статье.'
+  action:
+    submit: Сохранить
+  success:
+    message: 'Статья сохранена'
+
+pl:
+  field:
+    title:
+      label: Tytuł
+    cover:
+      label: Okładka
+      help: 'Jedno media, wybrane w bibliotece.'
+    attachments:
+      label: Załączniki
+      help: 'Tak wiele mediów, jakich potrzebuje artykuł.'
+  action:
+    submit: Zapisz
+  success:
+    message: 'Artykuł zapisany'
+
+es:
+  field:
+    title:
+      label: Título
+    cover:
+      label: Portada
+      help: 'Un medio, seleccionado de la biblioteca.'
+    attachments:
+      label: Adjuntos
+      help: 'Tantos medios como necesite el artículo.'
+  action:
+    submit: Guardar
+  success:
+    message: 'Artículo guardado'
+
+it:
+  field:
+    title:
+      label: Titolo
+    cover:
+      label: Copertina
+      help: 'Un media, selezionato dalla libreria.'
+    attachments:
+      label: Allegati
+      help: "Tutti i media di cui l'articolo ha bisogno."
+  action:
+    submit: Salva
+  success:
+    message: 'Articolo salvato'
+
+pt_BR:
+  field:
+    title:
+      label: Título
+    cover:
+      label: Capa
+      help: 'Uma mídia, escolhida na biblioteca.'
+    attachments:
+      label: Anexos
+      help: 'Quantas mídias o artigo precisar.'
+  action:
+    submit: Salvar
+  success:
+    message: 'Artigo salvo'
+
+tr:
+  field:
+    title:
+      label: Başlık
+    cover:
+      label: Kapak
+      help: 'Kütüphaneden seçilen bir medya.'
+    attachments:
+      label: Ekler
+      help: 'Makaleye ihtiyaç duyulan kadar medya.'
+  action:
+    submit: Kaydet
+  success:
+    message: 'Makale kaydedildi'
+
+vi:
+  field:
+    title:
+      label: 'Tiêu đề'
+    cover:
+      label: Bìa
+      help: 'Một phương tiện, được chọn trong thư viện.'
+    attachments:
+      label: 'Tệp đính kèm'
+      help: 'Nhiều phương tiện như bài viết cần.'
+  action:
+    submit: Lưu
+  success:
+    message: 'Bài viết đã được lưu'
+
+id:
+  field:
+    title:
+      label: Judul
+    cover:
+      label: Sampul
+      help: 'Satu media, dipilih dari perpustakaan.'
+    attachments:
+      label: Lampiran
+      help: 'Sebanyak media yang dibutuhkan artikel.'
+  action:
+    submit: Simpan
+  success:
+    message: 'Artikel disimpan'
+
+nl:
+  field:
+    title:
+      label: Titel
+    cover:
+      label: Omslag
+      help: 'Één media, gekozen uit de bibliotheek.'
+    attachments:
+      label: Bijlagen
+      help: 'Zoveel media als het artikel nodig heeft.'
+  action:
+    submit: Opslaan
+  success:
+    message: 'Artikel opgeslagen'

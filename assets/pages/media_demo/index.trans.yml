@@ -48,3 +48,303 @@ zh:
     attachments: 作为墙壁的附件
     library: 作为墙壁的库
     library_intro: '库中的每张图片，最新的优先，每张图片保持其比例：在到达墙底之前，从 API 读取下一页。'
+
+ar:
+  page_title: مقالة
+  page_icon: 'ph:bold/images'
+  intro: 'مقال يشير إلى وسائل الإعلام في المكتبة من خلال علاقات بسيطة: غلاف (ManyToOne) والمرفقات (ManyToMany). يأخذ شكله منها باستخدام حقل symfony-media-ds، الذي يفتح صفحة المكتبة كمختار: في نافذة منبثقة للغلاف، في لوحة للمرفقات.'
+  open:
+    modal: 'المكتبة في نافذة منبثقة'
+    panel: 'المكتبة في لوحة'
+  edit: 'تحرير المقالة'
+  attachments: المرفقات
+  no_cover: 'لا يوجد غلاف بعد.'
+  wall:
+    attachments: 'المرفقات كجدار'
+    library: 'المكتبة كجدار'
+    library_intro: 'كل صورة من المكتبة، الأحدث أولاً، كل منها بالنسبة الخاصة بها: يتم قراءة الصفحة التالية من واجهة البرمجة قبل الوصول إلى أسفل الجدار.'
+
+hi:
+  page_title: लेख
+  page_icon: 'ph:bold/images'
+  intro: 'एक लेख जो मीडिया को सरल संबंधों के माध्यम से पुस्तकालय की ओर इशारा करता है: एक कवर (ManyToOne) और संलग्नक (ManyToMany)। इसका रूप उन्हें symfony-media-ds के क्षेत्र के साथ उठाता है, जो कवर के लिए एक मोडाल में, संलग्नकों के लिए एक पैनल में पुस्तकालय पृष्ठ खोलता है।'
+  open:
+    modal: 'मोडाल में पुस्तकालय'
+    panel: 'पैनल में पुस्तकालय'
+  edit: 'लेख संपादित करें'
+  attachments: संलग्नक
+  no_cover: 'अभी तक कोई कवर नहीं।'
+  wall:
+    attachments: 'संलग्नकों को दीवार के रूप में'
+    library: 'पुस्तकालय को दीवार के रूप में'
+    library_intro: 'पुस्तकालय की प्रत्येक छवि, सबसे नई पहले, प्रत्येक अपने अनुपात में: दीवार के पैर तक पहुँचने से पहले अगला पृष्ठ api से पढ़ा जाता है।'
+
+he:
+  page_title: מאמר
+  page_icon: 'ph:bold/images'
+  intro: 'מאמר המפנה למדיה של הספרייה דרך קשרים פשוטים: כריכה (ManyToOne) וצירופים (ManyToMany). הצורה שלו בוחרת אותם עם השדה של symfony-media-ds, הפותח את עמוד הספרייה כמבחר: במודאל עבור הכריכה, בלוח עבור הצירופים.'
+  open:
+    modal: 'ספרייה במודאל'
+    panel: 'ספרייה בלוח'
+  edit: 'ערוך את המאמר'
+  attachments: צירופים
+  no_cover: 'אין כריכה עדיין.'
+  wall:
+    attachments: 'הצירופים כחומה'
+    library: 'הספרייה כחומה'
+    library_intro: 'כל תמונה של הספרייה, החדשות ביותר קודם, כל אחת ביחס שלה: הדף הבא נקרא מה-API לפני שהגענו לתחתית החומה.'
+
+fa:
+  page_title: مقاله
+  page_icon: 'ph:bold/images'
+  intro: 'مقاله‌ای که به رسانه‌های کتابخانه از طریق روابط ساده اشاره می‌کند: یک جلد (ManyToOne) و پیوست‌ها (ManyToMany). فرم آن‌ها را با فیلد symfony-media-ds انتخاب می‌کند که صفحه کتابخانه را به عنوان یک انتخاب‌گر باز می‌کند: در یک مدال برای جلد، در یک پنل برای پیوست‌ها.'
+  open:
+    modal: 'کتابخانه در یک مدال'
+    panel: 'کتابخانه در یک پنل'
+  edit: 'ویرایش مقاله'
+  attachments: پیوست‌ها
+  no_cover: 'هنوز جلدی وجود ندارد.'
+  wall:
+    attachments: 'پیوست‌ها به عنوان یک دیوار'
+    library: 'کتابخانه به عنوان یک دیوار'
+    library_intro: 'هر تصویر از کتابخانه، جدیدترین اول، هرکدام با نسبت خود: صفحه بعدی قبل از رسیدن به انتهای دیوار از api خوانده می‌شود.'
+
+ur:
+  page_title: مضمون
+  page_icon: 'ph:bold/images'
+  intro: 'ایک مضمون جو لائبریری کے میڈیا کی طرف اشارہ کرتا ہے سادہ تعلقات کے ذریعے: ایک سرورق (ManyToOne) اور منسلکات (ManyToMany). اس کی شکل انہیں symfony-media-ds کے میدان سے اٹھاتی ہے، جو لائبریری کے صفحے کو ایک چنندہ کے طور پر کھولتا ہے: سرورق کے لیے ایک موڈل میں، منسلکات کے لیے ایک پینل میں۔'
+  open:
+    modal: 'موڈل میں لائبریری'
+    panel: 'پینل میں لائبریری'
+  edit: 'مضمون میں ترمیم کریں'
+  attachments: منسلکات
+  no_cover: 'ابھی کوئی سرورق نہیں۔'
+  wall:
+    attachments: 'منسلکات کی دیوار'
+    library: 'لائبریری کی دیوار'
+    library_intro: 'لائبریری کی ہر تصویر، سب سے نئی پہلے، ہر ایک اپنے اپنے تناسب میں: دیوار کے پاؤں تک پہنچنے سے پہلے اگلا صفحہ api سے پڑھا جاتا ہے۔'
+
+ja:
+  page_title: 記事
+  page_icon: 'ph:bold/images'
+  intro: 'ライブラリのメディアを単純な関係を通じて指し示す記事です: カバー (ManyToOne) と添付ファイル (ManyToMany)。その形式は、カバーのためのモーダル、添付ファイルのためのパネルとしてピッカーを開くsymfony-media-dsのフィールドを使用して選択します。'
+  open:
+    modal: モーダルでライブラリ
+    panel: パネルでライブラリ
+  edit: 記事を編集
+  attachments: 添付ファイル
+  no_cover: カバーはまだありません。
+  wall:
+    attachments: 壁としての添付ファイル
+    library: 壁としてのライブラリ
+    library_intro: 'ライブラリのすべての画像、最新のものが最初に表示され、各画像はそれぞれの比率で表示されます: 壁の足元に達する前に次のページがAPIから読み込まれます。'
+
+ko:
+  page_title: 기사
+  page_icon: 'ph:bold/images'
+  intro: '단순한 관계를 통해 라이브러리의 미디어를 가리키는 기사: 커버(ManyToOne) 및 첨부파일(ManyToMany). 이 양식은 symfony-media-ds의 필드를 사용하여 선택하며, 커버는 모달로, 첨부파일은 패널로 라이브러리 페이지를 엽니다.'
+  open:
+    modal: '모달에서 라이브러리'
+    panel: '패널에서 라이브러리'
+  edit: '기사 수정'
+  attachments: 첨부파일
+  no_cover: '아직 커버가 없습니다.'
+  wall:
+    attachments: '벽으로서의 첨부파일'
+    library: '벽으로서의 라이브러리'
+    library_intro: '각각 고유 비율로 정렬된 라이브러리의 모든 이미지, 최신 이미지부터 시작: 벽의 바닥에 도달하기 전에 API에서 다음 페이지를 읽습니다.'
+
+bn:
+  page_title: লেখা
+  page_icon: 'ph:bold/images'
+  intro: 'একটি লেখা লাইব্রেরির মিডিয়াকে সাধারণ সম্পর্কের মাধ্যমে নির্দেশ করে: একটি কাভার (ManyToOne) এবং সংযুক্তিগুলি (ManyToMany)। এর ফর্ম সিম্ফনি-মিডিয়া-ডিএস এর ফিল্ডের সাথে তাদের নির্বাচন করে, যা একটি পিকার হিসেবে লাইব্রেরি পৃষ্ঠা খুলে: কাভারের জন্য একটি মোডালে, সংযুক্তির জন্য একটি প্যানেলে।'
+  open:
+    modal: 'একটি মোডালে লাইব্রেরি'
+    panel: 'একটি প্যানেলে লাইব্রেরি'
+  edit: 'লেখাটি সম্পাদনা করুন'
+  attachments: সংযুক্তি
+  no_cover: 'এখনো কোনো কাভার নেই।'
+  wall:
+    attachments: 'সংযুক্তিগুলি একটি দেয়াল হিসেবে'
+    library: 'লাইব্রেরিটি একটি দেয়াল হিসেবে'
+    library_intro: 'লাইব্রেরির প্রতিটি ছবি, সবচেয়ে নতুন প্রথম, প্রতিটি তার নিজস্ব অনুপাত অনুযায়ী: দেয়ালের পায়ে পৌঁছানোর আগে পরবর্তী পৃষ্ঠা এপিআই থেকে পড়া হয়।'
+
+th:
+  page_title: บทความ
+  page_icon: 'ph:bold/images'
+  intro: 'บทความที่ชี้ไปที่สื่อของห้องสมุดผ่านความสัมพันธ์ที่เรียบง่าย: ปก (ManyToOne) และไฟล์แนบ (ManyToMany) ฟอร์มของมันเลือกพวกเขาด้วยฟิลด์ของ symfony-media-ds ซึ่งเปิดหน้าเพจห้องสมุดในฐานะตัวเลือก: ในโมเดลสำหรับปก, ในแผงสำหรับไฟล์แนบ.'
+  open:
+    modal: ห้องสมุดในโมเดล
+    panel: ห้องสมุดในแผง
+  edit: แก้ไขบทความ
+  attachments: ไฟล์แนบ
+  no_cover: ยังไม่มีปก
+  wall:
+    attachments: ไฟล์แนบเป็นผนัง
+    library: ห้องสมุดเป็นผนัง
+    library_intro: 'ภาพทุกภาพของห้องสมุด เริ่มจากใหม่ที่สุด ทุกภาพในอัตราส่วนของตัวเอง: หน้าถัดไปจะถูกอ่านจาก api ก่อนที่จะถึงปลายผนัง.'
+
+de:
+  page_title: Artikel
+  page_icon: 'ph:bold/images'
+  intro: 'Ein Artikel, der auf Medien der Bibliothek durch einfache Beziehungen verweist: ein Cover (ManyToOne) und Anhänge (ManyToMany). Seine Form wählt sie mit dem Feld von symfony-media-ds aus, das die Bibliotheksseite als Picker öffnet: in einem Modal für das Cover, in einem Panel für die Anhänge.'
+  open:
+    modal: 'Bibliothek in einem Modal'
+    panel: 'Bibliothek in einem Panel'
+  edit: 'Artikel bearbeiten'
+  attachments: Anhänge
+  no_cover: 'Noch kein Cover.'
+  wall:
+    attachments: 'Die Anhänge als Wand'
+    library: 'Die Bibliothek als Wand'
+    library_intro: 'Jedes Bild der Bibliothek, das neueste zuerst, jeweils im eigenen Seitenverhältnis: die nächste Seite wird von der API gelesen, bevor das Ende der Wand erreicht ist.'
+
+fi:
+  page_title: Artikkeli
+  page_icon: 'ph:bold/images'
+  intro: 'Artikkeli, joka osoittaa kirjaston medioihin yksinkertaisten suhteiden kautta: kansi (MoniYhteen) ja liitteet (MoniMoniin). Sen muoto valitsee ne symfony-media-ds:n kentällä, joka avaa kirjastosivun valitsimena: modaalissa kannelle, paneelissa liitteille.'
+  open:
+    modal: 'Kirjasto modaalissa'
+    panel: 'Kirjasto paneelissa'
+  edit: 'Muokkaa artikkelia'
+  attachments: Liitteet
+  no_cover: 'Ei kansikuvaa vielä.'
+  wall:
+    attachments: 'Liitteet seinänä'
+    library: 'Kirjasto seinänä'
+    library_intro: 'Jokainen kirjaston kuva, uusimmat ensin, jokainen omassa suhteessaan: seuraava sivu luetaan api:sta ennen kuin seinän alaosa saavutetaan.'
+
+ru:
+  page_title: Статья
+  page_icon: 'ph:bold/images'
+  intro: 'Статья, указывающая на медиа библиотеки через простые отношения: обложка (ManyToOne) и вложения (ManyToMany). Ее форма выбирает их с помощью поля symfony-media-ds, которое открывает страницу библиотеки как выборщик: в модальном окне для обложки, в панели для вложений.'
+  open:
+    modal: 'Библиотека в модальном окне'
+    panel: 'Библиотека в панели'
+  edit: 'Редактировать статью'
+  attachments: Вложения
+  no_cover: 'Обложки еще нет.'
+  wall:
+    attachments: 'Вложения в виде стены'
+    library: 'Библиотека в виде стены'
+    library_intro: 'Каждое изображение библиотеки, начиная с самых новых, каждое в своем соотношении: следующая страница читается из API, прежде чем будет достигнут нижний край стены.'
+
+pl:
+  page_title: Artykuł
+  page_icon: 'ph:bold/images'
+  intro: 'Artykuł wskazujący na media w bibliotece za pomocą prostych relacji: okładka (ManyToOne) i załączniki (ManyToMany). Jego forma wybiera je za pomocą pola symfony-media-ds, które otwiera stronę biblioteki jako selektor: w modalnym oknie dla okładki, w panelu dla załączników.'
+  open:
+    modal: 'Biblioteka w modalnym oknie'
+    panel: 'Biblioteka w panelu'
+  edit: 'Edytuj artykuł'
+  attachments: Załączniki
+  no_cover: 'Brak okładki.'
+  wall:
+    attachments: 'Załączniki jako ściana'
+    library: 'Biblioteka jako ściana'
+    library_intro: 'Każdy obraz z biblioteki, najnowszy na początku, każdy w swoim własnym formacie: następna strona jest ładowana z API zanim dotrzesz do końca ściany.'
+
+es:
+  page_title: Artículo
+  page_icon: 'ph:bold/images'
+  intro: 'Un artículo que apunta a los medios de la biblioteca a través de relaciones simples: una portada (ManyToOne) y adjuntos (ManyToMany). Su forma los selecciona con el campo de symfony-media-ds, que abre la página de la biblioteca como un selector: en un modal para la portada, en un panel para los adjuntos.'
+  open:
+    modal: 'Biblioteca en un modal'
+    panel: 'Biblioteca en un panel'
+  edit: 'Editar el artículo'
+  attachments: Adjuntos
+  no_cover: 'Aún no hay portada.'
+  wall:
+    attachments: 'Los adjuntos como un muro'
+    library: 'La biblioteca como un muro'
+    library_intro: 'Cada imagen de la biblioteca, la más nueva primero, cada una en su propia proporción: la siguiente página se lee desde la API antes de alcanzar el pie del muro.'
+
+it:
+  page_title: Articolo
+  page_icon: 'ph:bold/images'
+  intro: 'Un articolo che punta ai media della libreria attraverso relazioni semplici: una copertura (ManyToOne) e allegati (ManyToMany). La sua forma li raccoglie con il campo di symfony-media-ds, che apre la pagina della libreria come selettore: in un modale per la copertura, in un pannello per gli allegati.'
+  open:
+    modal: 'Libreria in un modale'
+    panel: 'Libreria in un pannello'
+  edit: "Modifica l'articolo"
+  attachments: Allegati
+  no_cover: 'Nessuna copertura ancora.'
+  wall:
+    attachments: 'Gli allegati come un muro'
+    library: 'La libreria come un muro'
+    library_intro: "Ogni immagine della libreria, dalla più recente, ciascuna con il proprio rapporto: la pagina successiva viene letta dall'api prima che si raggiunga il fondo del muro."
+
+pt_BR:
+  page_title: Artigo
+  page_icon: 'ph:bold/images'
+  intro: 'Um artigo apontando para a mídia da biblioteca através de relações simples: uma capa (ManyToOne) e anexos (ManyToMany). Seu formulário seleciona-os com o campo do symfony-media-ds, que abre a página da biblioteca como um seletor: em um modal para a capa, em um painel para os anexos.'
+  open:
+    modal: 'Biblioteca em um modal'
+    panel: 'Biblioteca em um painel'
+  edit: 'Editar o artigo'
+  attachments: Anexos
+  no_cover: 'Sem capa ainda.'
+  wall:
+    attachments: 'Os anexos como uma parede'
+    library: 'A biblioteca como uma parede'
+    library_intro: 'Cada imagem da biblioteca, da mais nova para a mais antiga, cada uma em sua própria proporção: a próxima página é lida da API antes que o pé da parede seja alcançado.'
+
+tr:
+  page_title: Makale
+  page_icon: 'ph:bold/images'
+  intro: "Kütüphanenin medya unsurlarına işaret eden bir makale: bir kapak (ManyToOne) ve ekler (ManyToMany). Biçimi, kütüphane sayfasını bir seçim aracı olarak açan symfony-media-ds'nin alanını kullanarak bunları alır: kapak için bir modalda, ekler için bir panelde."
+  open:
+    modal: 'Modalda Kütüphane'
+    panel: 'Panelde Kütüphane'
+  edit: 'Makale Düzenle'
+  attachments: Ekler
+  no_cover: 'Henüz kapak yok.'
+  wall:
+    attachments: 'Ekleri bir duvar olarak'
+    library: 'Kütüphaneyi bir duvar olarak'
+    library_intro: "Kütüphanedeki her resim, en yenisi önce olmak üzere, her biri kendi oranında: duvarın altına gelmeden önce sonraki sayfa api'den okunur."
+
+vi:
+  page_title: 'Bài viết'
+  page_icon: 'ph:bold/images'
+  intro: 'Một bài viết chỉ ra các phương tiện của thư viện thông qua các mối quan hệ đơn giản: một bìa (Nhiều đến Một) và các tệp đính kèm (Nhiều đến Nhiều). Hình thức của nó chọn chúng bằng trường của symfony-media-ds, mở trang thư viện như một trình chọn: trong một hộp thoại cho bìa, trong một bảng cho các tệp đính kèm.'
+  open:
+    modal: 'Thư viện trong hộp thoại'
+    panel: 'Thư viện trong bảng'
+  edit: 'Chỉnh sửa bài viết'
+  attachments: 'Tệp đính kèm'
+  no_cover: 'Chưa có bìa.'
+  wall:
+    attachments: 'Các tệp đính kèm như một bức tường'
+    library: 'Thư viện như một bức tường'
+    library_intro: 'Mỗi hình ảnh của thư viện, mới nhất trước, mỗi hình theo tỷ lệ riêng: trang tiếp theo được đọc từ api trước khi chạm đến đáy của bức tường.'
+
+id:
+  page_title: Artikel
+  page_icon: 'ph:bold/images'
+  intro: 'Sebuah artikel yang menunjuk ke media perpustakaan melalui hubungan sederhana: sebuah sampul (ManyToOne) dan lampiran (ManyToMany). Bentuknya mengambil mereka dengan field dari symfony-media-ds, yang membuka halaman perpustakaan sebagai pemilih: dalam modal untuk sampul, dalam panel untuk lampiran.'
+  open:
+    modal: 'Perpustakaan dalam modal'
+    panel: 'Perpustakaan dalam panel'
+  edit: 'Edit artikel'
+  attachments: Lampiran
+  no_cover: 'Belum ada sampul.'
+  wall:
+    attachments: 'Lampiran sebagai dinding'
+    library: 'Perpustakaan sebagai dinding'
+    library_intro: 'Setiap gambar dari perpustakaan, terbaru pertama, masing-masing dengan rasio sendiri: halaman berikutnya dibaca dari api sebelum kaki dinding tercapai.'
+
+nl:
+  page_title: Artikel
+  page_icon: 'ph:bold/images'
+  intro: 'Een artikel dat wijst naar media van de bibliotheek via eenvoudige relaties: een omslag (ManyToOne) en bijlagen (ManyToMany). De vorm selecteert ze met het veld van symfony-media-ds, dat de bibliotheekpagina opent als een picker: in een modal voor de omslag, in een paneel voor de bijlagen.'
+  open:
+    modal: 'Bibliotheek in een modal'
+    panel: 'Bibliotheek in een paneel'
+  edit: 'Bewerk het artikel'
+  attachments: Bijlagen
+  no_cover: 'Nog geen omslag.'
+  wall:
+    attachments: 'De bijlagen als een muur'
+    library: 'De bibliotheek als een muur'
+    library_intro: 'Elke afbeelding van de bibliotheek, nieuwste eerst, elk in zijn eigen verhouding: de volgende pagina wordt gelezen van de api voordat de voet van de muur is bereikt.'

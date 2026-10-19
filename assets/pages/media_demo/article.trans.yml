@@ -9,3 +9,83 @@ fr:
 zh:
   page_title: 编辑文章
   page_icon: 'ph:bold/pencil-simple'
+
+ar:
+  page_title: 'تعديل المقالة'
+  page_icon: 'ph:bold/pencil-simple'
+
+hi:
+  page_title: 'लेख संपादित करें'
+  page_icon: 'ph:bold/pencil-simple'
+
+he:
+  page_title: 'ערוך את המאמר'
+  page_icon: 'ph:bold/pencil-simple'
+
+fa:
+  page_title: 'ویرایش مقاله'
+  page_icon: 'ph:bold/pencil-simple'
+
+ur:
+  page_title: 'مضمون میں ترمیم کریں'
+  page_icon: 'ph:bold/pencil-simple'
+
+ja:
+  page_title: 記事を編集
+  page_icon: 'ph:bold/pencil-simple'
+
+ko:
+  page_title: '기사 수정'
+  page_icon: 'ph:bold/pencil-simple'
+
+bn:
+  page_title: 'লেখাটি সম্পাদনা করুন'
+  page_icon: 'ph:bold/pencil-simple'
+
+th:
+  page_title: แก้ไขบทความ
+  page_icon: 'ph:bold/pencil-simple'
+
+de:
+  page_title: 'Artikel bearbeiten'
+  page_icon: 'ph:bold/pencil-simple'
+
+fi:
+  page_title: 'Muokkaa artikkelia'
+  page_icon: 'ph:bold/pencil-simple'
+
+ru:
+  page_title: 'Редактировать статью'
+  page_icon: 'ph:bold/pencil-simple'
+
+pl:
+  page_title: 'Edytuj artykuł'
+  page_icon: 'ph:bold/pencil-simple'
+
+es:
+  page_title: 'Editar el artículo'
+  page_icon: 'ph:bold/pencil-simple'
+
+it:
+  page_title: "Modifica l'articolo"
+  page_icon: 'ph:bold/pencil-simple'
+
+pt_BR:
+  page_title: 'Editar o artigo'
+  page_icon: 'ph:bold/pencil-simple'
+
+tr:
+  page_title: 'Makaleyi Düzenle'
+  page_icon: 'ph:bold/pencil-simple'
+
+vi:
+  page_title: 'Chỉnh sửa bài viết'
+  page_icon: 'ph:bold/pencil-simple'
+
+id:
+  page_title: 'Edit artikel'
+  page_icon: 'ph:bold/pencil-simple'
+
+nl:
+  page_title: 'Bewerk het artikel'
+  page_icon: 'ph:bold/pencil-simple'
