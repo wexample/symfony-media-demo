@@ -1,3 +1,11 @@
 en:
   page_title: Edit the article
   page_icon: ph:bold/pencil-simple
+
+fr:
+  page_title: "Modifier l'article"
+  page_icon: 'ph:bold/pencil-simple'
+
+zh:
+  page_title: 编辑文章
+  page_icon: 'ph:bold/pencil-simple'

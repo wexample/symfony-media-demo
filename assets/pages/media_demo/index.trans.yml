@@ -18,3 +18,33 @@ en:
     library_intro: >-
       Every image of the library, newest first, each at its own ratio: the
       next page is read from the api before the foot of the wall is reached.
+
+fr:
+  page_title: Article
+  page_icon: 'ph:bold/images'
+  intro: 'Un article pointant vers les médias de la bibliothèque à travers des relations simples : une couverture (ManyToOne) et des pièces jointes (ManyToMany). Son formulaire les sélectionne avec le champ de symfony-media-ds, qui ouvre la page de la bibliothèque comme un sélecteur : dans une modale pour la couverture, dans un panneau pour les pièces jointes.'
+  open:
+    modal: 'Bibliothèque dans une modale'
+    panel: 'Bibliothèque dans un panneau'
+  edit: "Modifier l'article"
+  attachments: 'Pièces jointes'
+  no_cover: 'Pas encore de couverture.'
+  wall:
+    attachments: 'Les pièces jointes comme un mur'
+    library: 'La bibliothèque comme un mur'
+    library_intro: "Chaque image de la bibliothèque, les plus récentes en premier, chacune à son propre ratio : la page suivante est lue depuis l'api avant d'atteindre le pied du mur."
+
+zh:
+  page_title: 文章
+  page_icon: 'ph:bold/images'
+  intro: '一篇通过简单关系指向库媒体的文章：封面（多对一）和附件（多对多）。它的形式使用 symfony-media-ds 的字段选择这些内容，封面在模态框中，附件在面板中打开库页面。'
+  open:
+    modal: 模态框中的库
+    panel: 面板中的库
+  edit: 编辑文章
+  attachments: 附件
+  no_cover: 还没有封面。
+  wall:
+    attachments: 作为墙壁的附件
+    library: 作为墙壁的库
+    library_intro: '库中的每张图片，最新的优先，每张图片保持其比例：在到达墙底之前，从 API 读取下一页。'

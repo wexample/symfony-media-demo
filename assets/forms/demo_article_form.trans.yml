@@ -14,3 +14,33 @@ en:
 
   success:
     message: Article saved
+
+fr:
+  field:
+    title:
+      label: Titre
+    cover:
+      label: Couverture
+      help: 'Un média, choisi dans la bibliothèque.'
+    attachments:
+      label: 'Pièces jointes'
+      help: "Autant de médias que l'article en a besoin."
+  action:
+    submit: Enregistrer
+  success:
+    message: 'Article enregistré'
+
+zh:
+  field:
+    title:
+      label: 标题
+    cover:
+      label: 封面
+      help: 从库中选择的一个媒体。
+    attachments:
+      label: 附件
+      help: 文章所需的任意数量的媒体。
+  action:
+    submit: 保存
+  success:
+    message: 文章已保存
