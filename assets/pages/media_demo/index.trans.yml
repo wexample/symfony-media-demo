@@ -23,7 +23,8 @@ en:
 
 fr:
   page_title: Article
-  page_description: "Un article relié à des médias de la médiathèque — une couverture et des pièces jointes — choisis par un champ de formulaire qui ouvre la médiathèque en modale ou en panneau."
+  document_title: 'Un article avec des médias de la bibliothèque'
+  page_description: 'Un article relié à des médias de la médiathèque — une couverture et des pièces jointes — choisis par un champ de formulaire qui ouvre la médiathèque en modale ou en panneau.'
   page_icon: 'ph:bold/images'
   intro: 'Un article pointant vers les médias de la bibliothèque à travers des relations simples : une couverture (ManyToOne) et des pièces jointes (ManyToMany). Son formulaire les sélectionne avec le champ de symfony-media-ds, qui ouvre la page de la bibliothèque comme un sélecteur : dans une modale pour la couverture, dans un panneau pour les pièces jointes.'
   open:
@@ -39,7 +40,8 @@ fr:
 
 zh:
   page_title: 文章
-  page_description: "一篇关联媒体库内容的文章——封面和附件——通过表单字段在模态框或面板中打开媒体库进行选择。"
+  document_title: 来自图书馆的媒体文章
+  page_description: 一篇关联媒体库内容的文章——封面和附件——通过表单字段在模态框或面板中打开媒体库进行选择。
   page_icon: 'ph:bold/images'
   intro: '一篇通过简单关系指向库媒体的文章：封面（多对一）和附件（多对多）。它的形式使用 symfony-media-ds 的字段选择这些内容，封面在模态框中，附件在面板中打开库页面。'
   open:
@@ -55,7 +57,8 @@ zh:
 
 ar:
   page_title: مقالة
-  page_description: "مقال مرتبط بوسائط من المكتبة — صورة غلاف ومرفقات — تُختار عبر حقل نموذج يفتح المكتبة في نافذة منبثقة أو لوحة."
+  document_title: 'مقالة تحتوي على وسائط من المكتبة'
+  page_description: 'مقال مرتبط بوسائط من المكتبة — صورة غلاف ومرفقات — تُختار عبر حقل نموذج يفتح المكتبة في نافذة منبثقة أو لوحة.'
   page_icon: 'ph:bold/images'
   intro: 'مقال يشير إلى وسائل الإعلام في المكتبة من خلال علاقات بسيطة: غلاف (ManyToOne) والمرفقات (ManyToMany). يأخذ شكله منها باستخدام حقل symfony-media-ds، الذي يفتح صفحة المكتبة كمختار: في نافذة منبثقة للغلاف، في لوحة للمرفقات.'
   open:
@@ -71,7 +74,8 @@ ar:
 
 hi:
   page_title: लेख
-  page_description: "लाइब्रेरी के मीडिया से जुड़ा एक लेख — कवर और अटैचमेंट — एक फ़ॉर्म फ़ील्ड से चुने जाते हैं जो लाइब्रेरी को मोडल या पैनल में खोलती है।"
+  document_title: 'पुस्तकालय से मीडिया के साथ एक लेख'
+  page_description: 'लाइब्रेरी के मीडिया से जुड़ा एक लेख — कवर और अटैचमेंट — एक फ़ॉर्म फ़ील्ड से चुने जाते हैं जो लाइब्रेरी को मोडल या पैनल में खोलती है।'
   page_icon: 'ph:bold/images'
   intro: 'एक लेख जो मीडिया को सरल संबंधों के माध्यम से पुस्तकालय की ओर इशारा करता है: एक कवर (ManyToOne) और संलग्नक (ManyToMany)। इसका रूप उन्हें symfony-media-ds के क्षेत्र के साथ उठाता है, जो कवर के लिए एक मोडाल में, संलग्नकों के लिए एक पैनल में पुस्तकालय पृष्ठ खोलता है।'
   open:
@@ -87,7 +91,8 @@ hi:
 
 he:
   page_title: מאמר
-  page_description: "מאמר המקושר למדיה מהספרייה — תמונת שער וקבצים מצורפים — הנבחרים בשדה טופס שפותח את הספרייה בחלון מודאלי או בלוח."
+  document_title: 'מאמר עם מדיה מהספרייה'
+  page_description: 'מאמר המקושר למדיה מהספרייה — תמונת שער וקבצים מצורפים — הנבחרים בשדה טופס שפותח את הספרייה בחלון מודאלי או בלוח.'
   page_icon: 'ph:bold/images'
   intro: 'מאמר המפנה למדיה של הספרייה דרך קשרים פשוטים: כריכה (ManyToOne) וצירופים (ManyToMany). הצורה שלו בוחרת אותם עם השדה של symfony-media-ds, הפותח את עמוד הספרייה כמבחר: במודאל עבור הכריכה, בלוח עבור הצירופים.'
   open:
@@ -103,7 +108,8 @@ he:
 
 fa:
   page_title: مقاله
-  page_description: "مقاله‌ای پیوندخورده به رسانه‌های کتابخانه — یک جلد و پیوست‌ها — که با فیلدی در فرم انتخاب می‌شوند که کتابخانه را در مودال یا پنل باز می‌کند."
+  document_title: 'مقاله‌ای با رسانه از کتابخانه'
+  page_description: 'مقاله‌ای پیوندخورده به رسانه‌های کتابخانه — یک جلد و پیوست‌ها — که با فیلدی در فرم انتخاب می‌شوند که کتابخانه را در مودال یا پنل باز می‌کند.'
   page_icon: 'ph:bold/images'
   intro: 'مقاله‌ای که به رسانه‌های کتابخانه از طریق روابط ساده اشاره می‌کند: یک جلد (ManyToOne) و پیوست‌ها (ManyToMany). فرم آن‌ها را با فیلد symfony-media-ds انتخاب می‌کند که صفحه کتابخانه را به عنوان یک انتخاب‌گر باز می‌کند: در یک مدال برای جلد، در یک پنل برای پیوست‌ها.'
   open:
@@ -119,7 +125,8 @@ fa:
 
 ur:
   page_title: مضمون
-  page_description: "لائبریری کے میڈیا سے منسلک ایک مضمون — سرورق اور منسلکات — ایک فارم فیلڈ سے چنے جاتے ہیں جو لائبریری کو موڈل یا پینل میں کھولتی ہے۔"
+  document_title: 'کتب خانہ سے میڈیا کے ساتھ ایک مضمون'
+  page_description: 'لائبریری کے میڈیا سے منسلک ایک مضمون — سرورق اور منسلکات — ایک فارم فیلڈ سے چنے جاتے ہیں جو لائبریری کو موڈل یا پینل میں کھولتی ہے۔'
   page_icon: 'ph:bold/images'
   intro: 'ایک مضمون جو لائبریری کے میڈیا کی طرف اشارہ کرتا ہے سادہ تعلقات کے ذریعے: ایک سرورق (ManyToOne) اور منسلکات (ManyToMany). اس کی شکل انہیں symfony-media-ds کے میدان سے اٹھاتی ہے، جو لائبریری کے صفحے کو ایک چنندہ کے طور پر کھولتا ہے: سرورق کے لیے ایک موڈل میں، منسلکات کے لیے ایک پینل میں۔'
   open:
@@ -135,7 +142,8 @@ ur:
 
 ja:
   page_title: 記事
-  page_description: "ライブラリのメディアにつながった記事。カバーと添付ファイルを、ライブラリをモーダルやパネルで開くフォーム項目から選びます。"
+  document_title: ライブラリのメディアを含む記事
+  page_description: ライブラリのメディアにつながった記事。カバーと添付ファイルを、ライブラリをモーダルやパネルで開くフォーム項目から選びます。
   page_icon: 'ph:bold/images'
   intro: 'ライブラリのメディアを単純な関係を通じて指し示す記事です: カバー (ManyToOne) と添付ファイル (ManyToMany)。その形式は、カバーのためのモーダル、添付ファイルのためのパネルとしてピッカーを開くsymfony-media-dsのフィールドを使用して選択します。'
   open:
@@ -151,7 +159,8 @@ ja:
 
 ko:
   page_title: 기사
-  page_description: "라이브러리 미디어와 연결된 글 — 표지와 첨부 파일 — 을 라이브러리를 모달이나 패널로 여는 폼 필드에서 선택합니다."
+  document_title: '도서관의 미디어가 포함된 기사'
+  page_description: '라이브러리 미디어와 연결된 글 — 표지와 첨부 파일 — 을 라이브러리를 모달이나 패널로 여는 폼 필드에서 선택합니다.'
   page_icon: 'ph:bold/images'
   intro: '단순한 관계를 통해 라이브러리의 미디어를 가리키는 기사: 커버(ManyToOne) 및 첨부파일(ManyToMany). 이 양식은 symfony-media-ds의 필드를 사용하여 선택하며, 커버는 모달로, 첨부파일은 패널로 라이브러리 페이지를 엽니다.'
   open:
@@ -167,7 +176,8 @@ ko:
 
 bn:
   page_title: লেখা
-  page_description: "লাইব্রেরির মিডিয়ার সঙ্গে যুক্ত একটি নিবন্ধ — প্রচ্ছদ ও সংযুক্তি — একটি ফর্ম ফিল্ড দিয়ে বাছাই, যা লাইব্রেরি মোডাল বা প্যানেলে খোলে।"
+  document_title: 'লাইব্রেরির মিডিয়া সহ একটি নিবন্ধ'
+  page_description: 'লাইব্রেরির মিডিয়ার সঙ্গে যুক্ত একটি নিবন্ধ — প্রচ্ছদ ও সংযুক্তি — একটি ফর্ম ফিল্ড দিয়ে বাছাই, যা লাইব্রেরি মোডাল বা প্যানেলে খোলে।'
   page_icon: 'ph:bold/images'
   intro: 'একটি লেখা লাইব্রেরির মিডিয়াকে সাধারণ সম্পর্কের মাধ্যমে নির্দেশ করে: একটি কাভার (ManyToOne) এবং সংযুক্তিগুলি (ManyToMany)। এর ফর্ম সিম্ফনি-মিডিয়া-ডিএস এর ফিল্ডের সাথে তাদের নির্বাচন করে, যা একটি পিকার হিসেবে লাইব্রেরি পৃষ্ঠা খুলে: কাভারের জন্য একটি মোডালে, সংযুক্তির জন্য একটি প্যানেলে।'
   open:
@@ -183,7 +193,8 @@ bn:
 
 th:
   page_title: บทความ
-  page_description: "บทความที่เชื่อมกับสื่อในคลัง — ภาพปกและไฟล์แนบ — เลือกผ่านช่องฟอร์มที่เปิดคลังสื่อในโมดัลหรือแผง"
+  document_title: บทความที่มีสื่อจากห้องสมุด
+  page_description: 'บทความที่เชื่อมกับสื่อในคลัง — ภาพปกและไฟล์แนบ — เลือกผ่านช่องฟอร์มที่เปิดคลังสื่อในโมดัลหรือแผง'
   page_icon: 'ph:bold/images'
   intro: 'บทความที่ชี้ไปที่สื่อของห้องสมุดผ่านความสัมพันธ์ที่เรียบง่าย: ปก (ManyToOne) และไฟล์แนบ (ManyToMany) ฟอร์มของมันเลือกพวกเขาด้วยฟิลด์ของ symfony-media-ds ซึ่งเปิดหน้าเพจห้องสมุดในฐานะตัวเลือก: ในโมเดลสำหรับปก, ในแผงสำหรับไฟล์แนบ.'
   open:
@@ -199,7 +210,8 @@ th:
 
 de:
   page_title: Artikel
-  page_description: "Ein Artikel, verknüpft mit Medien der Mediathek — ein Titelbild und Anhänge — ausgewählt über ein Formularfeld, das die Mediathek im Modal oder Panel öffnet."
+  document_title: 'Ein Artikel mit Medien aus der Bibliothek'
+  page_description: 'Ein Artikel, verknüpft mit Medien der Mediathek — ein Titelbild und Anhänge — ausgewählt über ein Formularfeld, das die Mediathek im Modal oder Panel öffnet.'
   page_icon: 'ph:bold/images'
   intro: 'Ein Artikel, der auf Medien der Bibliothek durch einfache Beziehungen verweist: ein Cover (ManyToOne) und Anhänge (ManyToMany). Seine Form wählt sie mit dem Feld von symfony-media-ds aus, das die Bibliotheksseite als Picker öffnet: in einem Modal für das Cover, in einem Panel für die Anhänge.'
   open:
@@ -215,7 +227,8 @@ de:
 
 fi:
   page_title: Artikkeli
-  page_description: "Artikkeli, joka on linkitetty kirjaston mediaan — kansikuva ja liitteet — valittuina lomakekentällä, joka avaa kirjaston modaalissa tai paneelissa."
+  document_title: 'Artikkeli, jossa on media kirjastosta'
+  page_description: 'Artikkeli, joka on linkitetty kirjaston mediaan — kansikuva ja liitteet — valittuina lomakekentällä, joka avaa kirjaston modaalissa tai paneelissa.'
   page_icon: 'ph:bold/images'
   intro: 'Artikkeli, joka osoittaa kirjaston medioihin yksinkertaisten suhteiden kautta: kansi (MoniYhteen) ja liitteet (MoniMoniin). Sen muoto valitsee ne symfony-media-ds:n kentällä, joka avaa kirjastosivun valitsimena: modaalissa kannelle, paneelissa liitteille.'
   open:
@@ -231,7 +244,8 @@ fi:
 
 ru:
   page_title: Статья
-  page_description: "Статья, связанная с файлами медиатеки — обложкой и вложениями, — выбранными через поле формы, открывающее медиатеку в модальном окне или панели."
+  document_title: 'Статья с медиа из библиотеки'
+  page_description: 'Статья, связанная с файлами медиатеки — обложкой и вложениями, — выбранными через поле формы, открывающее медиатеку в модальном окне или панели.'
   page_icon: 'ph:bold/images'
   intro: 'Статья, указывающая на медиа библиотеки через простые отношения: обложка (ManyToOne) и вложения (ManyToMany). Ее форма выбирает их с помощью поля symfony-media-ds, которое открывает страницу библиотеки как выборщик: в модальном окне для обложки, в панели для вложений.'
   open:
@@ -247,7 +261,8 @@ ru:
 
 pl:
   page_title: Artykuł
-  page_description: "Artykuł powiązany z mediami z biblioteki — okładką i załącznikami — wybieranymi polem formularza, które otwiera bibliotekę w oknie modalnym lub panelu."
+  document_title: 'Artykuł z mediami z biblioteki'
+  page_description: 'Artykuł powiązany z mediami z biblioteki — okładką i załącznikami — wybieranymi polem formularza, które otwiera bibliotekę w oknie modalnym lub panelu.'
   page_icon: 'ph:bold/images'
   intro: 'Artykuł wskazujący na media w bibliotece za pomocą prostych relacji: okładka (ManyToOne) i załączniki (ManyToMany). Jego forma wybiera je za pomocą pola symfony-media-ds, które otwiera stronę biblioteki jako selektor: w modalnym oknie dla okładki, w panelu dla załączników.'
   open:
@@ -263,7 +278,8 @@ pl:
 
 es:
   page_title: Artículo
-  page_description: "Un artículo vinculado a medios de la mediateca — una portada y adjuntos — elegidos con un campo de formulario que abre la mediateca en un modal o panel."
+  document_title: 'Un artículo con medios de la biblioteca'
+  page_description: 'Un artículo vinculado a medios de la mediateca — una portada y adjuntos — elegidos con un campo de formulario que abre la mediateca en un modal o panel.'
   page_icon: 'ph:bold/images'
   intro: 'Un artículo que apunta a los medios de la biblioteca a través de relaciones simples: una portada (ManyToOne) y adjuntos (ManyToMany). Su forma los selecciona con el campo de symfony-media-ds, que abre la página de la biblioteca como un selector: en un modal para la portada, en un panel para los adjuntos.'
   open:
@@ -279,7 +295,8 @@ es:
 
 it:
   page_title: Articolo
-  page_description: "Un articolo collegato ai media della libreria — una copertina e degli allegati — scelti con un campo del modulo che apre la libreria in un modale o pannello."
+  document_title: 'Un articolo con media dalla biblioteca'
+  page_description: 'Un articolo collegato ai media della libreria — una copertina e degli allegati — scelti con un campo del modulo che apre la libreria in un modale o pannello.'
   page_icon: 'ph:bold/images'
   intro: 'Un articolo che punta ai media della libreria attraverso relazioni semplici: una copertura (ManyToOne) e allegati (ManyToMany). La sua forma li raccoglie con il campo di symfony-media-ds, che apre la pagina della libreria come selettore: in un modale per la copertura, in un pannello per gli allegati.'
   open:
@@ -295,7 +312,8 @@ it:
 
 pt_BR:
   page_title: Artigo
-  page_description: "Um artigo ligado a mídias da biblioteca — uma capa e anexos — escolhidos por um campo de formulário que abre a biblioteca num modal ou painel."
+  document_title: 'Um artigo com mídia da biblioteca'
+  page_description: 'Um artigo ligado a mídias da biblioteca — uma capa e anexos — escolhidos por um campo de formulário que abre a biblioteca num modal ou painel.'
   page_icon: 'ph:bold/images'
   intro: 'Um artigo apontando para a mídia da biblioteca através de relações simples: uma capa (ManyToOne) e anexos (ManyToMany). Seu formulário seleciona-os com o campo do symfony-media-ds, que abre a página da biblioteca como um seletor: em um modal para a capa, em um painel para os anexos.'
   open:
@@ -311,7 +329,8 @@ pt_BR:
 
 tr:
   page_title: Makale
-  page_description: "Kütüphanedeki medyaya bağlı bir makale — kapak ve ekler — kütüphaneyi modal veya panelde açan bir form alanıyla seçilir."
+  document_title: 'Kütüphaneden medya içeren bir makale'
+  page_description: 'Kütüphanedeki medyaya bağlı bir makale — kapak ve ekler — kütüphaneyi modal veya panelde açan bir form alanıyla seçilir.'
   page_icon: 'ph:bold/images'
   intro: "Kütüphanenin medya unsurlarına işaret eden bir makale: bir kapak (ManyToOne) ve ekler (ManyToMany). Biçimi, kütüphane sayfasını bir seçim aracı olarak açan symfony-media-ds'nin alanını kullanarak bunları alır: kapak için bir modalda, ekler için bir panelde."
   open:
@@ -327,7 +346,8 @@ tr:
 
 vi:
   page_title: 'Bài viết'
-  page_description: "Một bài viết liên kết với phương tiện trong thư viện — ảnh bìa và tệp đính kèm — được chọn qua trường biểu mẫu mở thư viện trong modal hoặc bảng."
+  document_title: 'Một bài viết có phương tiện từ thư viện'
+  page_description: 'Một bài viết liên kết với phương tiện trong thư viện — ảnh bìa và tệp đính kèm — được chọn qua trường biểu mẫu mở thư viện trong modal hoặc bảng.'
   page_icon: 'ph:bold/images'
   intro: 'Một bài viết chỉ ra các phương tiện của thư viện thông qua các mối quan hệ đơn giản: một bìa (Nhiều đến Một) và các tệp đính kèm (Nhiều đến Nhiều). Hình thức của nó chọn chúng bằng trường của symfony-media-ds, mở trang thư viện như một trình chọn: trong một hộp thoại cho bìa, trong một bảng cho các tệp đính kèm.'
   open:
@@ -343,7 +363,8 @@ vi:
 
 id:
   page_title: Artikel
-  page_description: "Artikel yang terhubung ke media pustaka — sampul dan lampiran — dipilih lewat kolom formulir yang membuka pustaka dalam modal atau panel."
+  document_title: 'Artikel dengan media dari perpustakaan'
+  page_description: 'Artikel yang terhubung ke media pustaka — sampul dan lampiran — dipilih lewat kolom formulir yang membuka pustaka dalam modal atau panel.'
   page_icon: 'ph:bold/images'
   intro: 'Sebuah artikel yang menunjuk ke media perpustakaan melalui hubungan sederhana: sebuah sampul (ManyToOne) dan lampiran (ManyToMany). Bentuknya mengambil mereka dengan field dari symfony-media-ds, yang membuka halaman perpustakaan sebagai pemilih: dalam modal untuk sampul, dalam panel untuk lampiran.'
   open:
@@ -359,7 +380,8 @@ id:
 
 nl:
   page_title: Artikel
-  page_description: "Een artikel gekoppeld aan media uit de bibliotheek — een omslag en bijlagen — gekozen via een formulierveld dat de bibliotheek in een modal of paneel opent."
+  document_title: 'Een artikel met media uit de bibliotheek'
+  page_description: 'Een artikel gekoppeld aan media uit de bibliotheek — een omslag en bijlagen — gekozen via een formulierveld dat de bibliotheek in een modal of paneel opent.'
   page_icon: 'ph:bold/images'
   intro: 'Een artikel dat wijst naar media van de bibliotheek via eenvoudige relaties: een omslag (ManyToOne) en bijlagen (ManyToMany). De vorm selecteert ze met het veld van symfony-media-ds, dat de bibliotheekpagina opent als een picker: in een modal voor de omslag, in een paneel voor de bijlagen.'
   open:
