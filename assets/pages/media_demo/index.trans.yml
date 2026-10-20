@@ -1,5 +1,6 @@
 en:
   page_title: Article
+  document_title: "An article with media from the library"
   page_description: "An article linked to media from the library — a cover and attachments — picked through a form field that opens the library in a modal or panel."
   page_icon: ph:bold/images
   intro: >-
