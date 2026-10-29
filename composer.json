@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-media-demo",
   "description": "Demo of symfony-media: the library, and an article picking its cover and its attachments in it",
-  "version": "3.0.11",
+  "version": "3.0.12",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -17,10 +17,10 @@
   ],
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-design-system": ">=40.0.0",
+    "wexample/symfony-design-system": ">=41.0.0",
     "wexample/symfony-forms": ">=14.0.2",
     "wexample/symfony-helpers": ">=19.1.0",
-    "wexample/symfony-loader": ">=25.3.0",
+    "wexample/symfony-loader": ">=26.0.0",
     "wexample/symfony-media": ">=6.0.0",
     "wexample/symfony-media-ds": ">=3.0.5"
   },

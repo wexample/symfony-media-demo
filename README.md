@@ -1,6 +1,6 @@
 # symfony-media-demo
 
-Version: 3.0.11
+Version: 3.0.12
 
 Demo of symfony-media: the library, and an article picking its cover and its attachments in it
 
